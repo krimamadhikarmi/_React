@@ -1,0 +1,16 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: bisque;
+}
+
+.navbar-logo .logo {
+  height: 50px;
+}
+
+.nav-items {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+}
