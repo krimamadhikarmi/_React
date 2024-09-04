@@ -11,6 +11,7 @@ import Documents from './pages/documents';
 import Profile from './pages/profile';
 import Settings from './pages/settings';
 import LoginPage from './pages/login';
+import Register from './pages/register';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -24,7 +25,8 @@ root.render(
           <Route path="profile" element={<Profile />} />
           <Route path="settings" element={<Settings />} />
           <Route path="login" element={<LoginPage />} />
-        </Route>
+          <Route path='register' element={<Register/>}/>
+/        </Route>
       </Routes>
     </BrowserRouter>
   </React.StrictMode>,

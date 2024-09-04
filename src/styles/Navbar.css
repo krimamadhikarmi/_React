@@ -1,16 +1,27 @@
-.navbar {
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#nav{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: bisque;
+  padding: 10px;
+  background-color: burlywood;
 }
-
-.navbar-logo .logo {
-  height: 50px;
-}
-
-.nav-items {
+#menus{
   display: flex;
-  flex-direction: row;
-  gap: 1.5rem;
+}
+/* descentend selector */
+#menus p{
+  padding: 0px 10px;
+}
+#logo{
+  display: flex;
+  align-items: center;
+}
+#logo>h1{
+  padding: 0px 10px;
+  color: brown;
 }
