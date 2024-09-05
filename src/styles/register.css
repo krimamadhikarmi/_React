@@ -3,10 +3,11 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  box-shadow: 0px 0px 20px 20px rgba(121, 223, 66, 0.684);
+  box-shadow: 0px 0px 20px 10px rgb(99, 84, 112);
   width: 650px;
   border-radius: 20px;
   padding: 20px;
+  background-color: whitesmoke;
 }
 .reg-row-field {
   display: flex;
@@ -16,11 +17,36 @@
 .reg-row-field input {
   width: 300px;
 }
-.gender-field {
-  display: flex;
-  gap: 32px;
-  margin-top: 4px;
+.gender-field h3 {
+  margin-bottom: 8px;
 }
-.gender-field input {
-  margin-top: -12px; 
+.gender-options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.gender {
+  display: flex;
+  align-items: center;
+}
+.gender input {
+  margin-right: 10px;
+}
+
+#register-button input {
+  width: 100%;
+  padding: 8px 0px;
+  background-color: transparent;
+  border: none;
+  color: whitesmoke;
+  background: linear-gradient(to right, rgb(74, 117, 74), rgb(79, 79, 141), rgb(172, 84, 172));
+  border-radius: 10px;
+  font-size: 16px;
+  margin-top: 24px;
+  font-weight: bold;
+}
+.register-container {
+  width: 100vw;
+  height: 100vh;
+  background: radial-gradient( rgb(74, 117, 74), rgb(79, 79, 141), rgb(172, 84, 172));
 }
