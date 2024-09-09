@@ -1,0 +1,18 @@
+.card {
+  border-radius: 20px;
+  border: 1px solid black;
+  width: 300px;
+  margin: 20px;
+  overflow: hidden;
+}
+.nameTag {
+  background-color: blueviolet;
+}
+.nameTag h2,
+h3 {
+  color: whitesmoke;
+}
+.intro{
+    text-align: left;
+    padding: 5px;
+}

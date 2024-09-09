@@ -41,6 +41,9 @@ const Navbar = ({ title }) => {
         <p>
           <Link to="/login">Login</Link>
         </p>
+        <p>
+          <Link to="/user">User</Link>
+        </p>
       </div>
     </nav>
   );
