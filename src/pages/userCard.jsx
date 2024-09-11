@@ -1,10 +1,10 @@
 import '../styles/userCard.css';
 
-const Card = () => {
+const Card = (user) => {
   return (
     <div className="card">
       <div className="nameTag">
-        <h2>Krima Madhikarmi</h2>
+        <h2>{}</h2>
         <h3>@Krima</h3>
       </div>
       <div className="intro">
@@ -23,7 +23,7 @@ const Card = () => {
           <strong>Address:</strong> Suryabinayak,Bhaktapur
         </div>
         <div>
-          <strong>Company:</strong>
+          <strong>Company:</strong> 
           <p>Romagurea-Crona</p>
           <strong> Catchphrase:</strong>
           <p>"MultiLayered"</p>
