@@ -1,7 +1,16 @@
-#users  #title{
-    font-size: 40px;
-    font-weight: bold;
-    color: rgb(16, 18, 42);
-    text-shadow: 2px 2px 5px blueviolet ;
-    text-align: center;
+#users #title {
+  font-size: 40px;
+  font-weight: bold;
+  color: rgb(16, 18, 42);
+  text-shadow: 2px 2px 5px blueviolet;
+  text-align: center;
 }
+#user-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+/* #container {
+  width: 100vw;
+  height: 100vh;
+  background: radial-gradient(rgb(74, 117, 74), rgb(79, 79, 141), rgb(172, 84, 172));
+} */
