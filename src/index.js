@@ -12,7 +12,7 @@ import Profile from './pages/profile';
 import Settings from './pages/settings';
 import LoginPage from './pages/login';
 import Register from './pages/register';
-import Card from './pages/userCard';
+// import Card from './pages/userCard';
 import Users from './pages/user';
 import PostScreen from './pages/post_screen';
 import AddPost from './pages/add_post';
