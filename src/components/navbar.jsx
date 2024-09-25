@@ -26,6 +26,9 @@ const Navbar = ({ title }) => {
           <Link to="/">Home</Link>
         </p>
         <p>
+          <Link to="/addPosts">Add Posts</Link>
+        </p>
+        <p>
           <Link to="/downloads">Downloads</Link>
         </p>
         <p>
@@ -43,6 +46,9 @@ const Navbar = ({ title }) => {
         </p>
         <p>
           <Link to="/user">User</Link>
+        </p>
+        <p>
+          <Link to='/posts'>Posts</Link>
         </p>
       </div>
     </nav>
